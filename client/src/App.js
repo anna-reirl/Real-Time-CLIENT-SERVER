@@ -1,13 +1,15 @@
-import React from 'react'
+import React from 'react';
 import './App.css'
-import EventSourcing from "./EventSourcing";
+import WebSock from "./WebSock";
 
 function App() {
+
   return (
-    <div>
-      <EventSourcing/>
-    </div>
-  );
+      <div>
+        <WebSock/>
+      </div>
+  )
 }
 
-export default App
+
+export default App;
